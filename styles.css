@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&family=Manrope:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Halant', serif;
+}
+
+body{
+    background-color: rgb(186, 183, 183);
+    padding: 0 10px;
+
+}
+.parentdiv{
+    max-width: 500px;
+    width: 100%;
+    height: 1000px; 
+    margin: 20px auto;
+    background: #FFFFFF;
+    padding: 40px;
+}
+.parentdiv .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.parentdiv .form{
+    width: 100%;
+}
+.parentdiv .form .inputfield{
+    margin-bottom: 20px;
+}
+
+.parentdiv .form .inputfield label{
+    width: 200px;
+    color: black;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.parentdiv .form .inputfield .input{
+    margin-bottom: 20px;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+    padding:  16px 172px 16px 172px;
+    background-color: rgb(27, 65, 190);
+    font-family: 'Manrope', sans-serif;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ }
+
